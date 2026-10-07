@@ -1,0 +1,536 @@
+{
+  "portraits": [
+    {
+      "src": "/images/portraits/img_0874.jpg",
+      "width": 2000,
+      "height": 2667,
+      "source": "IMG_0874.JPG"
+    },
+    {
+      "src": "/images/portraits/img_0879.jpg",
+      "width": 2000,
+      "height": 2667,
+      "source": "IMG_0879.JPG"
+    },
+    {
+      "src": "/images/portraits/img_0913.jpg",
+      "width": 2000,
+      "height": 2667,
+      "source": "IMG_0913.JPG"
+    },
+    {
+      "src": "/images/portraits/img_0924.jpg",
+      "width": 2000,
+      "height": 2667,
+      "source": "IMG_0924.heic"
+    },
+    {
+      "src": "/images/portraits/img_0930.jpg",
+      "width": 2000,
+      "height": 2667,
+      "source": "IMG_0930.jpg"
+    },
+    {
+      "src": "/images/portraits/img_0940.jpg",
+      "width": 2000,
+      "height": 2667,
+      "source": "IMG_0940.JPG"
+    },
+    {
+      "src": "/images/portraits/img_0943.jpg",
+      "width": 2000,
+      "height": 1500,
+      "source": "IMG_0943.JPG"
+    },
+    {
+      "src": "/images/portraits/img_0948.jpg",
+      "width": 2000,
+      "height": 2667,
+      "source": "IMG_0948.JPG"
+    },
+    {
+      "src": "/images/portraits/img_0954.jpg",
+      "width": 2000,
+      "height": 2667,
+      "source": "IMG_0954.JPG"
+    },
+    {
+      "src": "/images/portraits/img_5011.jpg",
+      "width": 2000,
+      "height": 2667,
+      "source": "IMG_5011.JPG"
+    },
+    {
+      "src": "/images/portraits/img_5013.jpg",
+      "width": 2000,
+      "height": 2667,
+      "source": "IMG_5013.JPG"
+    },
+    {
+      "src": "/images/portraits/img_5030.jpg",
+      "width": 1920,
+      "height": 1080,
+      "source": "IMG_5030.MOV",
+      "video": "/videos/portraits/img_5030.mov"
+    },
+    {
+      "src": "/images/portraits/img_5040.jpg",
+      "width": 2000,
+      "height": 1030,
+      "source": "IMG_5040.DNG"
+    },
+    {
+      "src": "/images/portraits/img_5051.jpg",
+      "width": 2000,
+      "height": 2667,
+      "source": "IMG_5051.JPG"
+    },
+    {
+      "src": "/images/portraits/img_5056.jpg",
+      "width": 2000,
+      "height": 2667,
+      "source": "IMG_5056.JPG"
+    },
+    {
+      "src": "/images/portraits/img_5077.jpg",
+      "width": 2000,
+      "height": 1500,
+      "source": "IMG_5077.JPG"
+    },
+    {
+      "src": "/images/portraits/img_5079.jpg",
+      "width": 2000,
+      "height": 2542,
+      "source": "IMG_5079.JPG"
+    }
+  ],
+  "wildlife": [
+    {
+      "src": "/images/wildlife/e4bc0bfe-4b96-401d-aad2-9092809b1490.jpg",
+      "width": 2000,
+      "height": 2500,
+      "source": "E4BC0BFE-4B96-401D-AAD2-9092809B1490.JPG"
+    },
+    {
+      "src": "/images/wildlife/img_0541.jpg",
+      "width": 2000,
+      "height": 1580,
+      "source": "IMG_0541.jpg"
+    },
+    {
+      "src": "/images/wildlife/img_0547.jpg",
+      "width": 2000,
+      "height": 2635,
+      "source": "IMG_0547.jpg"
+    },
+    {
+      "src": "/images/wildlife/img_0632.jpg",
+      "width": 2000,
+      "height": 2667,
+      "source": "IMG_0632.jpg"
+    },
+    {
+      "src": "/images/wildlife/img_0712.jpg",
+      "width": 2000,
+      "height": 1123,
+      "source": "IMG_0712.jpg"
+    },
+    {
+      "src": "/images/wildlife/img_0713.jpg",
+      "width": 2000,
+      "height": 1123,
+      "source": "IMG_0713.JPG"
+    },
+    {
+      "src": "/images/wildlife/img_0714.jpg",
+      "width": 2000,
+      "height": 1124,
+      "source": "IMG_0714.jpg"
+    },
+    {
+      "src": "/images/wildlife/img_0742.jpg",
+      "width": 2000,
+      "height": 2667,
+      "source": "IMG_0742.heic"
+    },
+    {
+      "src": "/images/wildlife/img_0747.jpg",
+      "width": 2000,
+      "height": 2667,
+      "source": "IMG_0747.heic"
+    },
+    {
+      "src": "/images/wildlife/img_0849.jpg",
+      "width": 2000,
+      "height": 3562,
+      "source": "IMG_0849.jpg"
+    },
+    {
+      "src": "/images/wildlife/img_0850.jpg",
+      "width": 2000,
+      "height": 1123,
+      "source": "IMG_0850.JPG"
+    },
+    {
+      "src": "/images/wildlife/img_0851.jpg",
+      "width": 2000,
+      "height": 1123,
+      "source": "IMG_0851.JPG"
+    },
+    {
+      "src": "/images/wildlife/img_0918.jpg",
+      "width": 2000,
+      "height": 1123,
+      "source": "IMG_0918.JPG"
+    },
+    {
+      "src": "/images/wildlife/img_0919.jpg",
+      "width": 2000,
+      "height": 1123,
+      "source": "IMG_0919.JPG"
+    },
+    {
+      "src": "/images/wildlife/img_0920.jpg",
+      "width": 2000,
+      "height": 1123,
+      "source": "IMG_0920.JPG"
+    },
+    {
+      "src": "/images/wildlife/img_0921.jpg",
+      "width": 2000,
+      "height": 1123,
+      "source": "IMG_0921.JPG"
+    },
+    {
+      "src": "/images/wildlife/img_0922.jpg",
+      "width": 2000,
+      "height": 1123,
+      "source": "IMG_0922.JPG"
+    },
+    {
+      "src": "/images/wildlife/img_0923.jpg",
+      "width": 2000,
+      "height": 1123,
+      "source": "IMG_0923.JPG"
+    },
+    {
+      "src": "/images/wildlife/img_1176.jpg",
+      "width": 2000,
+      "height": 2714,
+      "source": "IMG_1176.jpg"
+    },
+    {
+      "src": "/images/wildlife/img_3796.jpg",
+      "width": 2000,
+      "height": 2667,
+      "source": "IMG_3796.jpg"
+    },
+    {
+      "src": "/images/wildlife/img_4738.jpg",
+      "width": 2000,
+      "height": 2758,
+      "source": "IMG_4738.jpg"
+    },
+    {
+      "src": "/images/wildlife/img_6757.jpg",
+      "width": 1512,
+      "height": 2016,
+      "source": "IMG_6757.jpg"
+    },
+    {
+      "src": "/images/wildlife/img_6773.jpg",
+      "width": 2000,
+      "height": 1500,
+      "source": "IMG_6773.HEIC"
+    },
+    {
+      "src": "/images/wildlife/img_6775.jpg",
+      "width": 2000,
+      "height": 2667,
+      "source": "IMG_6775.heic"
+    },
+    {
+      "src": "/images/wildlife/img_6777.jpg",
+      "width": 2000,
+      "height": 1500,
+      "source": "IMG_6777.heic"
+    },
+    {
+      "src": "/images/wildlife/img_6778.jpg",
+      "width": 2000,
+      "height": 2667,
+      "source": "IMG_6778.heic"
+    },
+    {
+      "src": "/images/wildlife/img_8751.jpg",
+      "width": 2000,
+      "height": 2667,
+      "source": "IMG_8751.jpg"
+    },
+    {
+      "src": "/images/wildlife/img_8901.jpg",
+      "width": 2000,
+      "height": 2667,
+      "source": "IMG_8901.jpg"
+    },
+    {
+      "src": "/images/wildlife/img_9486.jpg",
+      "width": 2000,
+      "height": 2667,
+      "source": "IMG_9486.DNG"
+    },
+    {
+      "src": "/images/wildlife/img_9584.jpg",
+      "width": 1581,
+      "height": 2108,
+      "source": "IMG_9584.HEIC"
+    }
+  ],
+  "concerts": [
+    {
+      "src": "/images/concerts/file_005.jpg",
+      "width": 2000,
+      "height": 1500,
+      "source": "File_005.png"
+    },
+    {
+      "src": "/images/concerts/file_024.jpg",
+      "width": 2000,
+      "height": 1500,
+      "source": "File_024.png"
+    },
+    {
+      "src": "/images/concerts/img_7431.jpg",
+      "width": 2000,
+      "height": 1044,
+      "source": "IMG_7431.heic"
+    },
+    {
+      "src": "/images/concerts/img_7434.jpg",
+      "width": 2000,
+      "height": 944,
+      "source": "IMG_7434.jpg"
+    },
+    {
+      "src": "/images/concerts/img_7438.jpg",
+      "width": 2000,
+      "height": 1766,
+      "source": "IMG_7438.jpg"
+    },
+    {
+      "src": "/images/concerts/img_7451.jpg",
+      "width": 2000,
+      "height": 2667,
+      "source": "IMG_7451.heic"
+    },
+    {
+      "src": "/images/concerts/img_7453.jpg",
+      "width": 1080,
+      "height": 1920,
+      "source": "IMG_7453.MOV",
+      "video": "/videos/concerts/img_7453.mov"
+    },
+    {
+      "src": "/images/concerts/img_7454.jpg",
+      "width": 2000,
+      "height": 2667,
+      "source": "IMG_7454.jpg"
+    },
+    {
+      "src": "/images/concerts/img_7463.jpg",
+      "width": 2000,
+      "height": 2667,
+      "source": "IMG_7463.heic"
+    },
+    {
+      "src": "/images/concerts/img_7505.jpg",
+      "width": 2000,
+      "height": 1125,
+      "source": "IMG_7505.jpg"
+    },
+    {
+      "src": "/images/concerts/img_7510.jpg",
+      "width": 1080,
+      "height": 1920,
+      "source": "IMG_7510.mov",
+      "video": "/videos/concerts/img_7510.mov"
+    },
+    {
+      "src": "/images/concerts/img_7515.jpg",
+      "width": 2000,
+      "height": 2667,
+      "source": "IMG_7515.HEIC"
+    },
+    {
+      "src": "/images/concerts/img_7517.jpg",
+      "width": 2000,
+      "height": 2667,
+      "source": "IMG_7517.heic"
+    },
+    {
+      "src": "/images/concerts/img_7532.jpg",
+      "width": 2000,
+      "height": 1500,
+      "source": "IMG_7532.heic"
+    },
+    {
+      "src": "/images/concerts/img_7558.jpg",
+      "width": 2000,
+      "height": 2667,
+      "source": "IMG_7558.heic"
+    },
+    {
+      "src": "/images/concerts/img_7580.jpg",
+      "width": 2000,
+      "height": 1125,
+      "source": "IMG_7580.jpg"
+    },
+    {
+      "src": "/images/concerts/img_7587.jpg",
+      "width": 2000,
+      "height": 2666,
+      "source": "IMG_7587.jpg"
+    },
+    {
+      "src": "/images/concerts/img_7603.jpg",
+      "width": 2000,
+      "height": 1125,
+      "source": "IMG_7603.jpg"
+    },
+    {
+      "src": "/images/concerts/img_7651.jpg",
+      "width": 1080,
+      "height": 1920,
+      "source": "IMG_7651.mov",
+      "video": "/videos/concerts/img_7651.mov"
+    },
+    {
+      "src": "/images/concerts/img_7657.jpg",
+      "width": 2000,
+      "height": 1125,
+      "source": "IMG_7657.jpg"
+    },
+    {
+      "src": "/images/concerts/img_7659.jpg",
+      "width": 1920,
+      "height": 1080,
+      "source": "IMG_7659.mov",
+      "video": "/videos/concerts/img_7659.mov"
+    },
+    {
+      "src": "/images/concerts/img_7667.jpg",
+      "width": 2000,
+      "height": 2667,
+      "source": "IMG_7667.heic"
+    },
+    {
+      "src": "/images/concerts/img_7668.jpg",
+      "width": 2000,
+      "height": 2667,
+      "source": "IMG_7668.heic"
+    },
+    {
+      "src": "/images/concerts/img_7670.jpg",
+      "width": 1440,
+      "height": 1080,
+      "source": "IMG_7670.mov",
+      "video": "/videos/concerts/img_7670.mov"
+    },
+    {
+      "src": "/images/concerts/img_7672.jpg",
+      "width": 2000,
+      "height": 2043,
+      "source": "IMG_7672.heic"
+    },
+    {
+      "src": "/images/concerts/img_7673.jpg",
+      "width": 1080,
+      "height": 1920,
+      "source": "IMG_7673.mov",
+      "video": "/videos/concerts/img_7673.mov"
+    },
+    {
+      "src": "/images/concerts/img_7681.jpg",
+      "width": 2000,
+      "height": 2667,
+      "source": "IMG_7681.heic"
+    },
+    {
+      "src": "/images/concerts/img_7684.jpg",
+      "width": 1080,
+      "height": 1920,
+      "source": "IMG_7684.mov",
+      "video": "/videos/concerts/img_7684.mov"
+    },
+    {
+      "src": "/images/concerts/img_7685.jpg",
+      "width": 1920,
+      "height": 786,
+      "source": "IMG_7685.mov",
+      "video": "/videos/concerts/img_7685.mov"
+    },
+    {
+      "src": "/images/concerts/img_7689.jpg",
+      "width": 2000,
+      "height": 2667,
+      "source": "IMG_7689.heic"
+    },
+    {
+      "src": "/images/concerts/img_7705.jpg",
+      "width": 2000,
+      "height": 2667,
+      "source": "IMG_7705.heic"
+    },
+    {
+      "src": "/images/concerts/img_7711.jpg",
+      "width": 1920,
+      "height": 1080,
+      "source": "IMG_7711.mov",
+      "video": "/videos/concerts/img_7711.mov"
+    },
+    {
+      "src": "/images/concerts/img_7734.jpg",
+      "width": 2000,
+      "height": 2667,
+      "source": "IMG_7734.heic"
+    },
+    {
+      "src": "/images/concerts/img_7737.jpg",
+      "width": 1080,
+      "height": 1920,
+      "source": "IMG_7737.mov",
+      "video": "/videos/concerts/img_7737.mov"
+    },
+    {
+      "src": "/images/concerts/img_7740.jpg",
+      "width": 1179,
+      "height": 1293,
+      "source": "IMG_7740.jpg"
+    },
+    {
+      "src": "/images/concerts/img_7758.jpg",
+      "width": 1920,
+      "height": 1080,
+      "source": "IMG_7758.mov",
+      "video": "/videos/concerts/img_7758.mov"
+    },
+    {
+      "src": "/images/concerts/img_7785.jpg",
+      "width": 2000,
+      "height": 1500,
+      "source": "IMG_7785.jpg"
+    },
+    {
+      "src": "/images/concerts/img_7786.jpg",
+      "width": 2000,
+      "height": 1500,
+      "source": "IMG_7786.jpg"
+    },
+    {
+      "src": "/images/concerts/img_7803.jpg",
+      "width": 2000,
+      "height": 2667,
+      "source": "IMG_7803.jpg"
+    }
+  ]
+}

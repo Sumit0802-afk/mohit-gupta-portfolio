@@ -1,0 +1,29 @@
+/* Shared page gutter so every section lines up on the same edge. */
+.shell {
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
+}
+
+.section {
+  padding-top: clamp(5rem, 13vw, 12rem);
+  padding-bottom: clamp(5rem, 13vw, 12rem);
+}
+
+/* Horizontal scrollers keep their scrolling but lose the scrollbar. */
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Tool words stagger across the canvas on wide screens, stack on phones. */
+.tool-row {
+  margin-left: 0;
+}
+@media (min-width: 768px) {
+  .tool-row {
+    margin-left: var(--offset, 0);
+  }
+}

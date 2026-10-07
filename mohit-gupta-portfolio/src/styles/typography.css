@@ -1,0 +1,45 @@
+/* Oversized grotesque used for every headline. */
+.display {
+  font-family: var(--font-sans), "Helvetica Neue", Arial, sans-serif;
+  font-weight: 800;
+  line-height: 0.9;
+  letter-spacing: -0.045em;
+  text-transform: uppercase;
+}
+
+/* Small tracked-out metadata: section numbers, captions, nav. */
+.label {
+  font-size: 0.6875rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+}
+
+/* Editorial serif accent. */
+.accent {
+  font-family: var(--font-serif), Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  text-transform: none;
+}
+
+.section-title {
+  font-size: clamp(2.6rem, 7.2vw, 8.5rem);
+}
+
+.hero-title {
+  font-size: min(27vw, 30svh);
+}
+
+.outline-text {
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.55);
+}
+
+@media (min-width: 768px) {
+  .hero-title {
+    font-size: min(19.5vw, 36svh);
+  }
+}

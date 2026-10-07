@@ -1,0 +1,38 @@
+@import "tailwindcss";
+@import "../styles/variables.css";
+@import "../styles/typography.css";
+@import "../styles/animations.css";
+@import "../styles/responsive.css";
+@config "../../tailwind.config.ts";
+
+html {
+  background: var(--ink);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--font-sans), "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  overflow-x: clip;
+}
+
+::selection {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--warm);
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+
+img {
+  -webkit-user-drag: none;
+  user-select: none;
+}

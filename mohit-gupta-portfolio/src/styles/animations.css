@@ -1,0 +1,200 @@
+/* ---- Scroll reveals -------------------------------------------------------
+   Elements are hidden only once JS is known to be running (html.js), then
+   GSAP reveals them. See src/animations/scrollAnimations.ts. */
+.js [data-reveal],
+.js [data-reveal-image],
+.js [data-reveal-lines] {
+  visibility: hidden;
+}
+
+/* ---- Rolling label (VIEW PROJECT -> EXPLORE) ------------------------------ */
+.roll {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: bottom;
+}
+.roll > span {
+  display: block;
+  white-space: nowrap;
+  transition: transform 0.6s var(--ease);
+}
+.roll > span + span {
+  position: absolute;
+  inset: 0;
+  transform: translateY(110%);
+}
+.roll-host:hover .roll > span:first-child,
+.roll-host:focus-visible .roll > span:first-child {
+  transform: translateY(-110%);
+}
+.roll-host:hover .roll > span + span,
+.roll-host:focus-visible .roll > span + span {
+  transform: translateY(0);
+}
+
+/* ---- Pill button ---------------------------------------------------------- */
+.btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--glass);
+  padding: 1rem 1.6rem;
+  color: var(--paper);
+  backdrop-filter: blur(14px);
+  transition: color 0.5s var(--ease), border-color 0.5s var(--ease);
+  isolation: isolate;
+}
+.btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: var(--paper);
+  transform: translateY(101%);
+  transition: transform 0.6s var(--ease);
+}
+.btn:hover,
+.btn:focus-visible {
+  color: var(--ink);
+  border-color: var(--paper);
+}
+.btn:hover::before,
+.btn:focus-visible::before {
+  transform: translateY(0);
+}
+.btn .btn-arrow {
+  transition: transform 0.6s var(--ease);
+}
+.btn:hover .btn-arrow {
+  transform: translateX(6px);
+}
+
+/* ---- Custom cursor -------------------------------------------------------- */
+html.has-cursor,
+html.has-cursor * {
+  cursor: none !important;
+}
+.cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  mix-blend-mode: difference;
+}
+.cursor[data-visible="true"] {
+  opacity: 1;
+}
+.cursor-dot {
+  display: grid;
+  place-items: center;
+  width: 12px;
+  height: 12px;
+  margin: -6px 0 0 -6px;
+  border-radius: 999px;
+  border: 1px solid #fff;
+  background: #fff;
+  color: #000;
+  transition:
+    width 0.5s var(--ease),
+    height 0.5s var(--ease),
+    margin 0.5s var(--ease),
+    background-color 0.4s var(--ease);
+}
+.cursor-label {
+  font-size: 0.625rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  opacity: 0;
+  transform: scale(0.6);
+  transition: opacity 0.3s var(--ease), transform 0.5s var(--ease);
+}
+.cursor[data-state="link"] .cursor-dot {
+  width: 46px;
+  height: 46px;
+  margin: -23px 0 0 -23px;
+  background: transparent;
+}
+.cursor[data-state="view"],
+.cursor[data-state="explore"] {
+  mix-blend-mode: normal;
+}
+.cursor[data-state="view"] .cursor-dot,
+.cursor[data-state="explore"] .cursor-dot {
+  width: 96px;
+  height: 96px;
+  margin: -48px 0 0 -48px;
+}
+.cursor[data-state="view"] .cursor-label,
+.cursor[data-state="explore"] .cursor-label {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* ---- Ambient loops -------------------------------------------------------- */
+@keyframes drift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0.6rem, -1.1rem, 0);
+  }
+}
+.drift {
+  animation: drift var(--drift-time, 11s) ease-in-out var(--drift-delay, 0s) infinite;
+  will-change: transform;
+}
+
+@keyframes scroll-cue {
+  0% {
+    transform: scaleY(0);
+    transform-origin: top;
+  }
+  50% {
+    transform: scaleY(1);
+    transform-origin: top;
+  }
+  50.01% {
+    transform-origin: bottom;
+  }
+  100% {
+    transform: scaleY(0);
+    transform-origin: bottom;
+  }
+}
+.scroll-cue {
+  animation: scroll-cue 2.6s var(--ease) infinite;
+}
+
+/* Hero is scroll-locked while the opening sequence plays. */
+html.intro-lock,
+html.intro-lock body {
+  overflow: hidden;
+}
+
+/* ---- Reduced motion: keep everything visible, drop the theatre. ----------- */
+@media (prefers-reduced-motion: reduce) {
+  .js [data-reveal],
+  .js [data-reveal-image],
+  .js [data-reveal-lines] {
+    visibility: visible;
+  }
+  .drift,
+  .scroll-cue {
+    animation: none;
+  }
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
