@@ -127,6 +127,14 @@ export const leadershipImages: Photo[] = [
   frame("portraits", "img_5056"),
 ];
 
+/** Backdrops for the four "What I create" cards, in card order. */
+export const serviceImages: Photo[] = [
+  frame("portraits", "img_0924"),
+  frame("wildlife", "img_3796"),
+  frame("concerts", "img_7667"),
+  frame("concerts", "img_7651"),
+];
+
 /** Chapters of the sticky horizontal section. Corporate has no gallery link. */
 export const chapters = [
   ...categories.map((category) => ({
