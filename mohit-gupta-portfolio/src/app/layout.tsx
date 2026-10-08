@@ -1,6 +1,5 @@
 import type { Metadata, Viewport } from "next";
 import { Cormorant_Garamond, Manrope } from "next/font/google";
-import CustomCursor from "@/components/cursor/CustomCursor";
 import Footer from "@/components/footer/Footer";
 import Navbar from "@/components/navigation/Navbar";
 import PageTransition from "@/components/ui/PageTransition";
@@ -56,7 +55,6 @@ export default function RootLayout({
         </a>
 
         <SmoothScroll />
-        <CustomCursor />
         <PageTransition>
           <Navbar />
           {children}
