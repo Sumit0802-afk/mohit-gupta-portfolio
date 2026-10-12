@@ -1,6 +1,6 @@
 <!-- Header -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:050505,55:3A2A1A,100:D9B48A&text=MOHIT%20GUPTA&fontColor=f5f5f5&fontSize=64&fontAlignY=38&desc=Photographer%20%26%20Videographer&descAlignY=60&descSize=18&animation=fadeIn" alt="Mohit Gupta — Photographer &amp; Videographer" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:050505,55:3A2A1A,100:D9B48A&text=MOHIT%20GUPTA&fontColor=f5f5f5&fontSize=64&fontAlignY=38&desc=Photographer%20and%20Videographer&descAlignY=60&descSize=18&animation=fadeIn" alt="Mohit Gupta — Photographer &amp; Videographer" width="100%" />
 </p>
 
 <!-- Typing SVG -->
@@ -59,13 +59,11 @@
 <!-- How the site moves -->
 ```mermaid
 flowchart LR
-    B([🎬 Hero]) --> D[👤 About]
-    D --> C[🖼️ Work]
-    C --> E[💼 Experience]
+    A([🎬 Hero]) --> B[👤 About]
+    B --> C[🖼️ Work]
+    C --> D[🧱 Galleries]
+    D --> E[💼 Experience]
     E --> F([✉️ Contact])
-    C --> G[🧑 Portraits]
-    C --> H[🦌 Wildlife]
-    C --> I[🎤 Concerts]
 ```
 
 <br>
