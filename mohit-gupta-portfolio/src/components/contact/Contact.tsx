@@ -1,4 +1,4 @@
-import { Mail, Phone } from "lucide-react";
+import { ArrowUpRight, Mail, Phone } from "lucide-react";
 import { personal } from "@/data/personal";
 import ContactButton from "./ContactButton";
 
@@ -42,6 +42,22 @@ export default function Contact() {
               hover="+91 74288 74204"
             >
               Call me
+            </ContactButton>
+            <ContactButton
+              href={personal.linkedin}
+              icon={<ArrowUpRight size={16} strokeWidth={1.5} />}
+              hover="Connect"
+              external
+            >
+              LinkedIn
+            </ContactButton>
+            <ContactButton
+              href={personal.instagram}
+              icon={<ArrowUpRight size={16} strokeWidth={1.5} />}
+              hover={personal.instagramHandle}
+              external
+            >
+              Instagram
             </ContactButton>
           </div>
         </div>
